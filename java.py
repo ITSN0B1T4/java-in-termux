@@ -1,4 +1,6 @@
 import os, sys
+os.system("pkg update && upgrade -y")
+os.system("pkg install dx ecj -y")
 os.system("clear")
 file = str(input("[*] Enter Java File Name : "))
 clss = str(input("[*] Enter Class Name : "))
